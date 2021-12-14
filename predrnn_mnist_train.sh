@@ -1,6 +1,6 @@
 python -u predrnn_run.py \
     --is_training 1 \
-    #--device cuda \
+    --device cuda \
     --dataset mnist \
     --train_data_paths ./data/moving-mnist-example/moving-mnist-train.npz \
     --valid_data_paths ./data/moving-mnist-example/moving-mnist-valid.npz \
