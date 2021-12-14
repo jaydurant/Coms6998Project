@@ -1,5 +1,5 @@
 python -u predrnn_run.py \
-    --is_training 0 \
+    --is_training 1 \
     --device cuda \
     --dataset mnist \
     --train_data_paths ./data/moving-mnist-example/moving-mnist-train.npz \
@@ -23,8 +23,8 @@ python -u predrnn_run.py \
     --sampling_changing_rate 0.00002 \
     --lr 0.0003 \
     --batch_size 8 \
-    --max_iterations 100 \
+    --max_iterations 2 \
     --display_interval 100 \
     --test_interval 5000 \
-    --snapshot_interval 50 \
+    --snapshot_interval 1 \
     --pretrained_model ./checkpoints/mnist_predrnn/model.ckpt-100
