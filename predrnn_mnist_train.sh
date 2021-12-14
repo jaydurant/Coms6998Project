@@ -26,4 +26,4 @@ python -u predrnn_run.py \
     --max_iterations 100 \
     --display_interval 100 \
     --test_interval 5000 \
-    --snapshot_interval 5000
+    --snapshot_interval 50
