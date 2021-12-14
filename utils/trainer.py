@@ -2,7 +2,7 @@ import os.path
 import datetime
 import cv2
 import numpy as np
-from skimage.measure import structural_similarity
+from skimage.metrics import structural_similarity
 from utils import preprocess, metrics
 import lpips
 import torch
