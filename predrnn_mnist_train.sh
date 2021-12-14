@@ -27,4 +27,3 @@ python -u predrnn_run.py \
     --display_interval 100 \
     --test_interval 5000 \
     --snapshot_interval 1 \
-    --pretrained_model ./checkpoints/mnist_predrnn/model.ckpt-100
