@@ -1,5 +1,6 @@
 import numpy as np
 
+
 def reshape_patch(img_tensor, patch_size):
     assert 5 == img_tensor.ndim
     batch_size = np.shape(img_tensor)[0]

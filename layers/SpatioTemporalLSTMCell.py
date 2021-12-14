@@ -2,6 +2,8 @@ import torch
 import torch.nn as nn
 
 class SpatioTemporalLSTMCell(nn.Module):
+    """LSTM UNIT
+    """
     def __init__(self, in_channel, num_hidden, width, filter_size, stride, layer_norm):
         super(SpatioTemporalLSTMCell, self).__init__()
 

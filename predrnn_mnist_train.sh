@@ -15,7 +15,7 @@ python -u predrnn_run.py \
     --num_hidden 128,128,128,128 \
     --filter_size 5 \
     --stride 1 \
-    --patch_size 4 \
+    --patch_size 4\
     --layer_norm 0 \
     --scheduled_sampling 1 \
     --sampling_stop_iter 50000 \
@@ -26,4 +26,4 @@ python -u predrnn_run.py \
     --max_iterations 2500 \
     --display_interval 100 \
     --test_interval 5000 \
-    --snapshot_interval 125 
+    --snapshot_interval 125
