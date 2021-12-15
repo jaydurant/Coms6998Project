@@ -41,6 +41,7 @@ class SpatioTemporalLSTMCell(nn.Module):
         self.conv_last = nn.Conv2d(num_hidden * 2, num_hidden, kernel_size=1, stride=1, padding=0, bias=False)
 
     def forward(self, x_t, h_t, c_t, m_t):
+        print(x_t.size(), "x_t")
         x_concat = self.conv_x(x_t)
         h_concat = self.conv_h(h_t)
         m_concat = self.conv_m(m_t)
