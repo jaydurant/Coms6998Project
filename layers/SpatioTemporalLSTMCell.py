@@ -63,5 +63,5 @@ class SpatioTemporalLSTMCell(nn.Module):
         mem = torch.cat((c_new, m_new), 1)
         o_t = torch.sigmoid(o_x + o_h + self.conv_o(mem))
         h_new = o_t * torch.tanh(self.conv_last(mem))
-
+        print(h_new, c_new, m_new)
         return h_new, c_new, m_new
