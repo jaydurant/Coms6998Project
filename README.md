@@ -28,6 +28,11 @@ For this repo the directories for predrnn are described below
 - layers: contains the spatial temporal lstm cell
 - utils: contains functions to compute metrics, preprocess frames, and train the model
 
+The model for ConvLSTM is trained using the following command. Arguments in this file can be changed to change the regularization methods and various optimization methods
+
+```
+sh convlstm_mnist_train.sh
+```
 
 
 
