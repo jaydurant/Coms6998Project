@@ -1,5 +1,7 @@
 import numpy as np
-
+"""
+PNSR by batch
+"""
 def batch_psnr(gen_frames, gt_frames):
     if gen_frames.ndim == 3:
         axis = (1, 2)

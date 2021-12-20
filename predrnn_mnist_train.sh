@@ -23,7 +23,7 @@ python -u predrnn_run.py \
     --sampling_changing_rate 0.00002 \
     --lr 0.0003 \
     --batch_size 8 \
-    --max_iterations 125 \
+    --max_iterations 2500 \
     --display_interval 100 \
     --test_interval 5000 \
     --snapshot_interval 125 
